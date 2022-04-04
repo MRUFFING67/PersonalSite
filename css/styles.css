@@ -35,6 +35,12 @@ h3 {
   width: 50%;
 }
 
+@media (max-width: 1000px){
+  .picNameDescTable {
+    width: 100%;
+  }
+}
+
 .educationTable {
   margin-left: auto;
   margin-right: auto;
