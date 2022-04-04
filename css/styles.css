@@ -1,0 +1,66 @@
+/*********************TAG SELECTORS*********************/
+body {
+  background-color: #CAF0F8;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 2%;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #5F7464;
+}
+
+/********************CLASS SELECTORS********************/
+.OSUlogo {
+  background-color: red;
+}
+
+.profilepic {
+  vertical-align: middle;
+}
+
+.picNameDescTable {
+  background-color: #FFA8A8;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.educationTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experienceTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skillsTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobbiesLink {
+  text-align: center;
+}
+
+.contactmeLink{
+  text-align: center;
+}
+/********************ID SELECTORS********************/
+
+/*
+#contactmeLink {
+  margin-left: auto;
+  margin-right: auto;
+}*/

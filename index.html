@@ -4,48 +4,19 @@
   <head>
     <meta charset="utf-8">
     <title>Mitchell's Home Page</title>
+    <link rel="stylesheet" href="css/styles.css">
 
-    <style>
-      body {
-        background-color: #2FA4FF;
-      }
-
-      hr {
-        background-color: #61C0BF;
-        border-style: none;
-        height: 2px;
-        width: 100%;
-      }
-
-      table {
-        border-style: outset;
-        border-color: #black;
-        background-color: #E8FFC2;
-      }
-
-      a:link{
-        color: #88304E;
-      }
-
-      a:visited{
-        color: #0E185F;
-      }
-
-      td {
-        text-align: left;
-      }
-
-    </style>
 
   </head>
 
   <body>
-    <table style="border-style: none; background-color: #2FA4FF;">
+    <!-- My Picture, Name, Description Table -->
+    <table class="picNameDescTable">
       <tbody>
         <tr>
-          <td><img src="media/prof_pic-circle.png" alt="Me" /></td>
+          <td><img class="profilepic" src="media/prof_pic-circle.png" alt="Me" /></td>
           <td>
-            <h1><a href="https://www.linkedin.com/in/mitchell-ruffing/">Mitchell Ruffing</a></h1>
+            <h1 id="heading">Mitchell Ruffing</h1>
             <p>
               <em>Welcome to my <strong>projects website!</strong></em>
             </p>
@@ -61,7 +32,7 @@
             </p>
 
             <p>
-              <h3>
+              <h4>
                 I am a Lab Manager for Azimuth Corporation, contracted to Wright Patterson
                 Air Force Base, where I manage the ins and outs of day-to-day lab work.
                 Our research focues on the development of a machine called a Laser Heated
@@ -73,7 +44,7 @@
                 functionality of the LHPG over the entirety of the SDLC. Along with this,
                 I've had the opportunity to do mechanical design, research, and
                 implementation from start to finish.
-              </h3>
+              </h4>
             </p>
           </td>
         </tr>
@@ -83,24 +54,17 @@
 
     <hr>
 
-    <table style="border-style: none;">
-      <thead>
-        <tr>
-          <td>
-            <h2><strong><u>Education</u></strong></h2>
-          </td>
-        </tr>
-      </thead>
+    <!-- My Education Table -->
+    <table class="educationTable">
+      <thead><tr><th colspan="2"><h3><strong><u>Education</u></strong></h3></th></tr></thead>
       <tbody>
         <tr>
-          <td style="vertical-align:top">
-            <h3>
-              <a href="https://physics.osu.edu/undergraduate-majors/engineering-physics-program">B.S. Engineering Physics</a>, <em>Sub-Specialization in <a href="https://cse.osu.edu/">Computer Science Engineering</a></em>
-            </h3>
-            <h4 style="Align:right"><em><a href="https://www.osu.edu/">The Ohio State University</a>, Graduated May 2020. </em></h4>
+          <td>
+            <a href="https://physics.osu.edu/undergraduate-majors/engineering-physics-program">B.S. Engineering Physics</a>, <em>Sub-Specialization in <a href="https://cse.osu.edu/">Computer Science Engineering</a></em>
+            <h4><em><a href="https://www.osu.edu/">The Ohio State University</a>, Graduated May 2020. </em></h4>
           </td>
           <td >
-            <img src="media/OSU_logo.jpg" alt="OSUlogo" width="135" height="75"/>
+            <img class="OSUlogo" src="media/OSU_logo.jpg" alt="OSUlogo" width="135" height="75"/>
           </td>
         </tr>
       </tbody>
@@ -108,11 +72,10 @@
 
     <hr>
 
-    <table border="5">
+    <!-- My Work Experience Table -->
+    <table class="experienceTable">
       <thead>
-        <tr>
-          <td colspan="3" align="center"><h2><u>Work Experience</u></h2></td>
-        </tr>
+        <tr><th colspan="3"><h3><u>Work Experience</u></h3></th></tr>
         <tr>
           <th>Tenure</th>
           <th>Organization</th>
@@ -140,9 +103,10 @@
 
     <hr>
 
-    <table border ="5">
+    <!-- My Skills Table -->
+    <table class="skillsTable">
       <thead>
-        <tr><td colspan="4" Align="center"><h3>Skills</h3></td></tr>
+        <tr><th colspan="4"><h3><u>Skills</u></h3></th></tr>
       </thead>
       <tbody>
         <tr>
@@ -197,7 +161,7 @@
           <td>HTML</td>
           <td>&#11088;&#11088;&#11088;&#11088;</td>
           <td>CSS</td>
-          <td>&#11088;</td>
+          <td>&#11088;&#11088;</td>
         </tr>
         <tr>
           <td>JavaScript</td>
@@ -222,9 +186,9 @@
 
     <hr>
 
-    <h2><strong><a href="hobbies.html">Things I do for fun!</a></strong></h2>
+    <h2 class="hobbiesLink"><strong><a href="hobbies.html">Things I do for fun!</a></strong></h2>
 
-    <h2><strong><a href="contactme.html">Contact Me</a></strong></h2>
+    <h2 class="contactmeLink"><strong><a href="contactme.html">Contact Me</a></strong></h2>
 
     <hr>
 
